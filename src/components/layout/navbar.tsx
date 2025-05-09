@@ -2,7 +2,7 @@ export default function Navbar() {
   return (
     <div className=" border-b-2 border-gray-200">
       <div className="bg-black ">
-        <div className="container mx-auto px-20 py-0.5 flex flex-column justify-between ">
+        <div className="container mx-auto px-20 py-0.5 flex  justify-between ">
           <div className="flex flex-row p-2 ">
             <p className=" text-gray-50 ">Mon-Thu:</p>
             <p className=" text-white">9:00 AM - 5:30 PM v</p>
@@ -86,10 +86,6 @@ export default function Navbar() {
               d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"
             />
           </svg>
-
-
-
-
         <div className="relative">
         <span className="top-0 start-4 absolute w-4 h-4 bg-blue-600 rounded-full  text-white text-xs text-center">1</span>  
         <svg
